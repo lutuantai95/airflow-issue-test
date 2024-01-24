@@ -1,0 +1,298 @@
+airflow-docker-compose-fec-airflow-init-1  | 2.8.1
+airflow-docker-compose-fec-airflow-init-1  | environment: line 2: printf: [2024-01-24T15:11:30: invalid number
+airflow-docker-compose-fec-airflow-init-1  | environment: line 2: printf: 859+0000]: invalid number
+airflow-docker-compose-fec-airflow-init-1  | /bin/bash: line 9: ((: 0000085900000000: value too great for base (error token is "0000085900000000")
+airflow-docker-compose-fec-airflow-init-1  | The container is run as root user. For security, consider using a regular user account.
+airflow-docker-compose-fec-airflow-init-1  | 
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:34.534+0000] {settings.py:241} DEBUG - Setting up DB connection pool (PID 57)
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:34.535+0000] {settings.py:342} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=57
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:34.559+0000] {cli_action_loggers.py:41} DEBUG - Adding <function default_action_log at 0x7fa2dbd024c0> to pre execution callback
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.158+0000] {serde.py:339} DEBUG - registering decimal.Decimal for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.158+0000] {serde.py:346} DEBUG - registering decimal.Decimal for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.158+0000] {serde.py:339} DEBUG - registering builtins.frozenset for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.159+0000] {serde.py:339} DEBUG - registering builtins.set for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.159+0000] {serde.py:339} DEBUG - registering builtins.tuple for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.159+0000] {serde.py:346} DEBUG - registering builtins.frozenset for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.159+0000] {serde.py:346} DEBUG - registering builtins.set for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.159+0000] {serde.py:346} DEBUG - registering builtins.tuple for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.160+0000] {serde.py:354} DEBUG - registering builtins.frozenset for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.160+0000] {serde.py:354} DEBUG - registering builtins.set for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.160+0000] {serde.py:354} DEBUG - registering builtins.tuple for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.160+0000] {serde.py:339} DEBUG - registering datetime.date for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.160+0000] {serde.py:339} DEBUG - registering datetime.datetime for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.161+0000] {serde.py:339} DEBUG - registering datetime.timedelta for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.161+0000] {serde.py:339} DEBUG - registering pendulum.datetime.DateTime for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.161+0000] {serde.py:346} DEBUG - registering datetime.date for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.161+0000] {serde.py:346} DEBUG - registering datetime.datetime for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.161+0000] {serde.py:346} DEBUG - registering datetime.timedelta for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.161+0000] {serde.py:346} DEBUG - registering pendulum.datetime.DateTime for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.161+0000] {serde.py:339} DEBUG - registering deltalake.table.DeltaTable for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.162+0000] {serde.py:346} DEBUG - registering deltalake.table.DeltaTable for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.162+0000] {serde.py:354} DEBUG - registering deltalake.table.DeltaTable for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.162+0000] {serde.py:339} DEBUG - registering pyiceberg.table.Table for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.162+0000] {serde.py:346} DEBUG - registering pyiceberg.table.Table for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.162+0000] {serde.py:354} DEBUG - registering pyiceberg.table.Table for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.162+0000] {serde.py:339} DEBUG - registering kubernetes.client.models.v1_resource_requirements.V1ResourceRequirements for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.163+0000] {serde.py:339} DEBUG - registering kubernetes.client.models.v1_pod.V1Pod for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.163+0000] {serde.py:339} DEBUG - registering numpy.int8 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.163+0000] {serde.py:339} DEBUG - registering numpy.int16 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.163+0000] {serde.py:339} DEBUG - registering numpy.int32 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.163+0000] {serde.py:339} DEBUG - registering numpy.int64 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.163+0000] {serde.py:339} DEBUG - registering numpy.uint8 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.163+0000] {serde.py:339} DEBUG - registering numpy.uint16 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.164+0000] {serde.py:339} DEBUG - registering numpy.uint32 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.164+0000] {serde.py:339} DEBUG - registering numpy.uint64 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.164+0000] {serde.py:339} DEBUG - registering numpy.bool_ for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.164+0000] {serde.py:339} DEBUG - registering numpy.float64 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.164+0000] {serde.py:339} DEBUG - registering numpy.float16 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.164+0000] {serde.py:339} DEBUG - registering numpy.complex128 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.164+0000] {serde.py:339} DEBUG - registering numpy.complex64 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.164+0000] {serde.py:346} DEBUG - registering numpy.int8 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.164+0000] {serde.py:346} DEBUG - registering numpy.int16 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.165+0000] {serde.py:346} DEBUG - registering numpy.int32 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.165+0000] {serde.py:346} DEBUG - registering numpy.int64 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.165+0000] {serde.py:346} DEBUG - registering numpy.uint8 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.165+0000] {serde.py:346} DEBUG - registering numpy.uint16 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.165+0000] {serde.py:346} DEBUG - registering numpy.uint32 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.165+0000] {serde.py:346} DEBUG - registering numpy.uint64 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.165+0000] {serde.py:346} DEBUG - registering numpy.bool_ for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.165+0000] {serde.py:346} DEBUG - registering numpy.float64 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.165+0000] {serde.py:346} DEBUG - registering numpy.float16 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.166+0000] {serde.py:346} DEBUG - registering numpy.complex128 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.166+0000] {serde.py:346} DEBUG - registering numpy.complex64 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.166+0000] {serde.py:339} DEBUG - registering pandas.core.frame.DataFrame for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.166+0000] {serde.py:346} DEBUG - registering pandas.core.frame.DataFrame for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.166+0000] {serde.py:339} DEBUG - registering pendulum.tz.timezone.FixedTimezone for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.166+0000] {serde.py:339} DEBUG - registering pendulum.tz.timezone.Timezone for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.166+0000] {serde.py:339} DEBUG - registering backports.zoneinfo.ZoneInfo for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.167+0000] {serde.py:346} DEBUG - registering pendulum.tz.timezone.FixedTimezone for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.167+0000] {serde.py:346} DEBUG - registering pendulum.tz.timezone.Timezone for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.167+0000] {serde.py:346} DEBUG - registering backports.zoneinfo.ZoneInfo for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.167+0000] {serde.py:357} DEBUG - loading serializers took 0.010 seconds
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.427+0000] {cli_action_loggers.py:67} DEBUG - Calling callbacks: [<function default_action_log at 0x7fa2dbd024c0>]
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.446+0000] {providers_manager.py:375} DEBUG - Initializing Providers Manager[config]
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.446+0000] {providers_manager.py:375} DEBUG - Initializing Providers Manager[list]
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.471+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.mysql.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-mysql
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.472+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.openlineage.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-openlineage
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.474+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.hashicorp.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-hashicorp
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.476+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.google.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-google
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.482+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.cncf.kubernetes.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-cncf-kubernetes
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.485+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.sendgrid.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-sendgrid
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.486+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.microsoft.azure.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-microsoft-azure
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.489+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.ftp.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-ftp
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.491+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.ssh.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-ssh
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.493+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.postgres.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-postgres
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.494+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.docker.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-docker
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.496+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.elasticsearch.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-elasticsearch
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.498+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.slack.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-slack
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.499+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.grpc.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-grpc
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.501+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.odbc.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-odbc
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.502+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.sftp.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-sftp
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.503+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.common.sql.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-common-sql
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.504+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.common.io.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-common-io
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.505+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.imap.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-imap
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.507+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.redis.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-redis
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.508+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.celery.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-celery
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.512+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.snowflake.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-snowflake
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.513+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.sqlite.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-sqlite
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.514+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.http.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-http
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.516+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.amazon.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-amazon
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.522+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.daskexecutor.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-daskexecutor
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.524+0000] {providers_manager.py:378} DEBUG - Initialization of Providers Manager[list] took 0.08 seconds
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.524+0000] {configuration.py:1816} DEBUG - Loading providers configuration
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.544+0000] {providers_manager.py:378} DEBUG - Initialization of Providers Manager[config] took 0.10 seconds
+airflow-docker-compose-fec-airflow-init-1  | DB: postgresql+psycopg2://airflow:***@postgres/airflow
+airflow-docker-compose-fec-airflow-init-1  | Performing upgrade to the metadata database postgresql+psycopg2://airflow:***@postgres/airflow
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.650+0000] {db.py:1481} DEBUG - running check function check_conn_id_duplicates
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.764+0000] {db.py:1481} DEBUG - running check function check_conn_type_null
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.765+0000] {db.py:1481} DEBUG - running check function check_run_id_null
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.781+0000] {db.py:1481} DEBUG - running check function check_bad_references
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.838+0000] {db.py:1429} DEBUG - checking model task_instance
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.838+0000] {db.py:1429} DEBUG - checking model task_reschedule
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.838+0000] {db.py:1429} DEBUG - checking model rendered_task_instance_fields
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.838+0000] {db.py:1429} DEBUG - checking model task_fail
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.838+0000] {db.py:1429} DEBUG - checking model xcom
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.839+0000] {db.py:1481} DEBUG - running check function check_username_duplicates
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.854+0000] {migration.py:216} INFO - Context impl PostgresqlImpl.
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.855+0000] {migration.py:219} INFO - Will assume transactional DDL.
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.860+0000] {db.py:1616} INFO - Creating tables
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.860+0000] {settings.py:378} DEBUG - Disposing DB connection pool (PID 57)
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:35.861+0000] {settings.py:241} DEBUG - Setting up DB connection pool (PID 57)
+airflow-docker-compose-fec-airflow-init-1  | INFO  [alembic.runtime.migration] Context impl PostgresqlImpl.
+airflow-docker-compose-fec-airflow-init-1  | INFO  [alembic.runtime.migration] Will assume transactional DDL.
+airflow-docker-compose-fec-airflow-init-1  | Database migrating done!
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:36.808+0000] {settings.py:241} DEBUG - Setting up DB connection pool (PID 70)
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:36.808+0000] {settings.py:342} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=70
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:36.832+0000] {cli_action_loggers.py:41} DEBUG - Adding <function default_action_log at 0x7f735ba844c0> to pre execution callback
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.417+0000] {serde.py:339} DEBUG - registering decimal.Decimal for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.417+0000] {serde.py:346} DEBUG - registering decimal.Decimal for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.418+0000] {serde.py:339} DEBUG - registering builtins.frozenset for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.418+0000] {serde.py:339} DEBUG - registering builtins.set for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.418+0000] {serde.py:339} DEBUG - registering builtins.tuple for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.418+0000] {serde.py:346} DEBUG - registering builtins.frozenset for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.418+0000] {serde.py:346} DEBUG - registering builtins.set for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.418+0000] {serde.py:346} DEBUG - registering builtins.tuple for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.418+0000] {serde.py:354} DEBUG - registering builtins.frozenset for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.419+0000] {serde.py:354} DEBUG - registering builtins.set for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.419+0000] {serde.py:354} DEBUG - registering builtins.tuple for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.419+0000] {serde.py:339} DEBUG - registering datetime.date for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.419+0000] {serde.py:339} DEBUG - registering datetime.datetime for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.419+0000] {serde.py:339} DEBUG - registering datetime.timedelta for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.419+0000] {serde.py:339} DEBUG - registering pendulum.datetime.DateTime for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.420+0000] {serde.py:346} DEBUG - registering datetime.date for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.420+0000] {serde.py:346} DEBUG - registering datetime.datetime for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.420+0000] {serde.py:346} DEBUG - registering datetime.timedelta for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.420+0000] {serde.py:346} DEBUG - registering pendulum.datetime.DateTime for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.420+0000] {serde.py:339} DEBUG - registering deltalake.table.DeltaTable for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.420+0000] {serde.py:346} DEBUG - registering deltalake.table.DeltaTable for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.420+0000] {serde.py:354} DEBUG - registering deltalake.table.DeltaTable for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.421+0000] {serde.py:339} DEBUG - registering pyiceberg.table.Table for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.421+0000] {serde.py:346} DEBUG - registering pyiceberg.table.Table for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.421+0000] {serde.py:354} DEBUG - registering pyiceberg.table.Table for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.421+0000] {serde.py:339} DEBUG - registering kubernetes.client.models.v1_resource_requirements.V1ResourceRequirements for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.421+0000] {serde.py:339} DEBUG - registering kubernetes.client.models.v1_pod.V1Pod for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.422+0000] {serde.py:339} DEBUG - registering numpy.int8 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.422+0000] {serde.py:339} DEBUG - registering numpy.int16 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.422+0000] {serde.py:339} DEBUG - registering numpy.int32 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.422+0000] {serde.py:339} DEBUG - registering numpy.int64 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.422+0000] {serde.py:339} DEBUG - registering numpy.uint8 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.422+0000] {serde.py:339} DEBUG - registering numpy.uint16 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.422+0000] {serde.py:339} DEBUG - registering numpy.uint32 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.422+0000] {serde.py:339} DEBUG - registering numpy.uint64 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.423+0000] {serde.py:339} DEBUG - registering numpy.bool_ for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.423+0000] {serde.py:339} DEBUG - registering numpy.float64 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.423+0000] {serde.py:339} DEBUG - registering numpy.float16 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.423+0000] {serde.py:339} DEBUG - registering numpy.complex128 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.423+0000] {serde.py:339} DEBUG - registering numpy.complex64 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.423+0000] {serde.py:346} DEBUG - registering numpy.int8 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.423+0000] {serde.py:346} DEBUG - registering numpy.int16 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.423+0000] {serde.py:346} DEBUG - registering numpy.int32 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.423+0000] {serde.py:346} DEBUG - registering numpy.int64 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.424+0000] {serde.py:346} DEBUG - registering numpy.uint8 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.424+0000] {serde.py:346} DEBUG - registering numpy.uint16 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.424+0000] {serde.py:346} DEBUG - registering numpy.uint32 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.424+0000] {serde.py:346} DEBUG - registering numpy.uint64 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.424+0000] {serde.py:346} DEBUG - registering numpy.bool_ for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.424+0000] {serde.py:346} DEBUG - registering numpy.float64 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.424+0000] {serde.py:346} DEBUG - registering numpy.float16 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.424+0000] {serde.py:346} DEBUG - registering numpy.complex128 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.424+0000] {serde.py:346} DEBUG - registering numpy.complex64 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.425+0000] {serde.py:339} DEBUG - registering pandas.core.frame.DataFrame for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.425+0000] {serde.py:346} DEBUG - registering pandas.core.frame.DataFrame for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.425+0000] {serde.py:339} DEBUG - registering pendulum.tz.timezone.FixedTimezone for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.425+0000] {serde.py:339} DEBUG - registering pendulum.tz.timezone.Timezone for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.425+0000] {serde.py:339} DEBUG - registering backports.zoneinfo.ZoneInfo for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.425+0000] {serde.py:346} DEBUG - registering pendulum.tz.timezone.FixedTimezone for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.425+0000] {serde.py:346} DEBUG - registering pendulum.tz.timezone.Timezone for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.426+0000] {serde.py:346} DEBUG - registering backports.zoneinfo.ZoneInfo for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.426+0000] {serde.py:357} DEBUG - loading serializers took 0.009 seconds
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.677+0000] {cli_action_loggers.py:67} DEBUG - Calling callbacks: [<function default_action_log at 0x7f735ba844c0>]
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.792+0000] {providers_manager.py:375} DEBUG - Initializing Providers Manager[config]
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.792+0000] {providers_manager.py:375} DEBUG - Initializing Providers Manager[list]
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.816+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.mysql.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-mysql
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.817+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.openlineage.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-openlineage
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.820+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.hashicorp.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-hashicorp
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.822+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.google.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-google
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.828+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.cncf.kubernetes.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-cncf-kubernetes
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.831+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.sendgrid.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-sendgrid
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.833+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.microsoft.azure.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-microsoft-azure
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.835+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.ftp.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-ftp
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.837+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.ssh.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-ssh
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.838+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.postgres.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-postgres
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.840+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.docker.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-docker
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.841+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.elasticsearch.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-elasticsearch
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.844+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.slack.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-slack
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.845+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.grpc.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-grpc
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.847+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.odbc.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-odbc
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.848+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.sftp.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-sftp
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.849+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.common.sql.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-common-sql
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.850+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.common.io.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-common-io
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.852+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.imap.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-imap
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.853+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.redis.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-redis
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.855+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.celery.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-celery
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.859+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.snowflake.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-snowflake
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.861+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.sqlite.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-sqlite
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.862+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.http.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-http
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.864+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.amazon.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-amazon
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.870+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.daskexecutor.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-daskexecutor
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.871+0000] {providers_manager.py:378} DEBUG - Initialization of Providers Manager[list] took 0.08 seconds
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.871+0000] {configuration.py:1816} DEBUG - Loading providers configuration
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:37.898+0000] {providers_manager.py:378} DEBUG - Initialization of Providers Manager[config] took 0.11 seconds
+airflow-docker-compose-fec-airflow-init-1  | /home/airflow/.local/lib/python3.8/site-packages/flask_limiter/extension.py:336 UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:38.393+0000] {plugins_manager.py:328} DEBUG - Loading plugins
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:38.394+0000] {plugins_manager.py:254} DEBUG - Loading plugins from directory: /opt/airflow/plugins
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:38.394+0000] {plugins_manager.py:234} DEBUG - Loading plugins from entrypoints
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:38.394+0000] {plugins_manager.py:237} DEBUG - Importing entry_point plugin openlineage
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:38.533+0000] {plugins_manager.py:346} DEBUG - Loading 1 plugin(s) took 0.14 seconds
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:38.533+0000] {plugins_manager.py:368} DEBUG - Initialize Web UI plugin
+airflow-docker-compose-fec-airflow-init-1  | airflow already exist in the db
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:38.547+0000] {cli_action_loggers.py:85} DEBUG - Calling callbacks: []
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:38.547+0000] {settings.py:378} DEBUG - Disposing DB connection pool (PID 70)
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:39.385+0000] {settings.py:241} DEBUG - Setting up DB connection pool (PID 1)
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:39.386+0000] {settings.py:342} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=1
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:39.411+0000] {cli_action_loggers.py:41} DEBUG - Adding <function default_action_log at 0x7f51b87024c0> to pre execution callback
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.003+0000] {serde.py:339} DEBUG - registering decimal.Decimal for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.003+0000] {serde.py:346} DEBUG - registering decimal.Decimal for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.003+0000] {serde.py:339} DEBUG - registering builtins.frozenset for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.004+0000] {serde.py:339} DEBUG - registering builtins.set for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.004+0000] {serde.py:339} DEBUG - registering builtins.tuple for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.004+0000] {serde.py:346} DEBUG - registering builtins.frozenset for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.004+0000] {serde.py:346} DEBUG - registering builtins.set for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.004+0000] {serde.py:346} DEBUG - registering builtins.tuple for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.004+0000] {serde.py:354} DEBUG - registering builtins.frozenset for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.005+0000] {serde.py:354} DEBUG - registering builtins.set for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.005+0000] {serde.py:354} DEBUG - registering builtins.tuple for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.005+0000] {serde.py:339} DEBUG - registering datetime.date for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.005+0000] {serde.py:339} DEBUG - registering datetime.datetime for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.005+0000] {serde.py:339} DEBUG - registering datetime.timedelta for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.005+0000] {serde.py:339} DEBUG - registering pendulum.datetime.DateTime for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.006+0000] {serde.py:346} DEBUG - registering datetime.date for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.006+0000] {serde.py:346} DEBUG - registering datetime.datetime for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.006+0000] {serde.py:346} DEBUG - registering datetime.timedelta for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.006+0000] {serde.py:346} DEBUG - registering pendulum.datetime.DateTime for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.006+0000] {serde.py:339} DEBUG - registering deltalake.table.DeltaTable for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.006+0000] {serde.py:346} DEBUG - registering deltalake.table.DeltaTable for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.006+0000] {serde.py:354} DEBUG - registering deltalake.table.DeltaTable for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.007+0000] {serde.py:339} DEBUG - registering pyiceberg.table.Table for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.007+0000] {serde.py:346} DEBUG - registering pyiceberg.table.Table for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.007+0000] {serde.py:354} DEBUG - registering pyiceberg.table.Table for stringifying
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.007+0000] {serde.py:339} DEBUG - registering kubernetes.client.models.v1_resource_requirements.V1ResourceRequirements for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.007+0000] {serde.py:339} DEBUG - registering kubernetes.client.models.v1_pod.V1Pod for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.008+0000] {serde.py:339} DEBUG - registering numpy.int8 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.008+0000] {serde.py:339} DEBUG - registering numpy.int16 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.008+0000] {serde.py:339} DEBUG - registering numpy.int32 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.008+0000] {serde.py:339} DEBUG - registering numpy.int64 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.008+0000] {serde.py:339} DEBUG - registering numpy.uint8 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.008+0000] {serde.py:339} DEBUG - registering numpy.uint16 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.008+0000] {serde.py:339} DEBUG - registering numpy.uint32 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.008+0000] {serde.py:339} DEBUG - registering numpy.uint64 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.009+0000] {serde.py:339} DEBUG - registering numpy.bool_ for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.009+0000] {serde.py:339} DEBUG - registering numpy.float64 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.009+0000] {serde.py:339} DEBUG - registering numpy.float16 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.009+0000] {serde.py:339} DEBUG - registering numpy.complex128 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.009+0000] {serde.py:339} DEBUG - registering numpy.complex64 for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.009+0000] {serde.py:346} DEBUG - registering numpy.int8 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.009+0000] {serde.py:346} DEBUG - registering numpy.int16 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.009+0000] {serde.py:346} DEBUG - registering numpy.int32 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.009+0000] {serde.py:346} DEBUG - registering numpy.int64 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.010+0000] {serde.py:346} DEBUG - registering numpy.uint8 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.010+0000] {serde.py:346} DEBUG - registering numpy.uint16 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.010+0000] {serde.py:346} DEBUG - registering numpy.uint32 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.010+0000] {serde.py:346} DEBUG - registering numpy.uint64 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.010+0000] {serde.py:346} DEBUG - registering numpy.bool_ for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.010+0000] {serde.py:346} DEBUG - registering numpy.float64 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.010+0000] {serde.py:346} DEBUG - registering numpy.float16 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.010+0000] {serde.py:346} DEBUG - registering numpy.complex128 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.011+0000] {serde.py:346} DEBUG - registering numpy.complex64 for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.011+0000] {serde.py:339} DEBUG - registering pandas.core.frame.DataFrame for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.011+0000] {serde.py:346} DEBUG - registering pandas.core.frame.DataFrame for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.011+0000] {serde.py:339} DEBUG - registering pendulum.tz.timezone.FixedTimezone for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.011+0000] {serde.py:339} DEBUG - registering pendulum.tz.timezone.Timezone for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.011+0000] {serde.py:339} DEBUG - registering backports.zoneinfo.ZoneInfo for serialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.011+0000] {serde.py:346} DEBUG - registering pendulum.tz.timezone.FixedTimezone for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.012+0000] {serde.py:346} DEBUG - registering pendulum.tz.timezone.Timezone for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.012+0000] {serde.py:346} DEBUG - registering backports.zoneinfo.ZoneInfo for deserialization
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.012+0000] {serde.py:357} DEBUG - loading serializers took 0.009 seconds
+airflow-docker-compose-fec-airflow-init-1  | 2.8.1
+airflow-docker-compose-fec-airflow-init-1  | [2024-01-24T15:11:40.262+0000] {settings.py:378} DEBUG - Disposing DB connection pool (PID 1)
+airflow-docker-compose-fec-airflow-init-1 exited with code 0
