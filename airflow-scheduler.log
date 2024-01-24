@@ -1,0 +1,604 @@
+airflow-docker-compose-fec-airflow-scheduler-1  | 
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:45.929+0000] {settings.py:241} DEBUG - Setting up DB connection pool (PID 7)
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:45.930+0000] {settings.py:342} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=7
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:45.953+0000] {cli_action_loggers.py:41} DEBUG - Adding <function default_action_log at 0x7f95c4147ca0> to pre execution callback
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.566+0000] {serde.py:339} DEBUG - registering decimal.Decimal for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.566+0000] {serde.py:346} DEBUG - registering decimal.Decimal for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.567+0000] {serde.py:339} DEBUG - registering builtins.frozenset for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.567+0000] {serde.py:339} DEBUG - registering builtins.set for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.567+0000] {serde.py:339} DEBUG - registering builtins.tuple for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.567+0000] {serde.py:346} DEBUG - registering builtins.frozenset for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.567+0000] {serde.py:346} DEBUG - registering builtins.set for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.568+0000] {serde.py:346} DEBUG - registering builtins.tuple for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.568+0000] {serde.py:354} DEBUG - registering builtins.frozenset for stringifying
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.568+0000] {serde.py:354} DEBUG - registering builtins.set for stringifying
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.568+0000] {serde.py:354} DEBUG - registering builtins.tuple for stringifying
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.568+0000] {serde.py:339} DEBUG - registering datetime.date for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.568+0000] {serde.py:339} DEBUG - registering datetime.datetime for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.569+0000] {serde.py:339} DEBUG - registering datetime.timedelta for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.569+0000] {serde.py:339} DEBUG - registering pendulum.datetime.DateTime for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.569+0000] {serde.py:346} DEBUG - registering datetime.date for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.569+0000] {serde.py:346} DEBUG - registering datetime.datetime for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.569+0000] {serde.py:346} DEBUG - registering datetime.timedelta for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.569+0000] {serde.py:346} DEBUG - registering pendulum.datetime.DateTime for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.569+0000] {serde.py:339} DEBUG - registering deltalake.table.DeltaTable for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.569+0000] {serde.py:346} DEBUG - registering deltalake.table.DeltaTable for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.570+0000] {serde.py:354} DEBUG - registering deltalake.table.DeltaTable for stringifying
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.570+0000] {serde.py:339} DEBUG - registering pyiceberg.table.Table for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.570+0000] {serde.py:346} DEBUG - registering pyiceberg.table.Table for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.570+0000] {serde.py:354} DEBUG - registering pyiceberg.table.Table for stringifying
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.571+0000] {serde.py:339} DEBUG - registering kubernetes.client.models.v1_resource_requirements.V1ResourceRequirements for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.571+0000] {serde.py:339} DEBUG - registering kubernetes.client.models.v1_pod.V1Pod for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.571+0000] {serde.py:339} DEBUG - registering numpy.int8 for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.571+0000] {serde.py:339} DEBUG - registering numpy.int16 for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.571+0000] {serde.py:339} DEBUG - registering numpy.int32 for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.572+0000] {serde.py:339} DEBUG - registering numpy.int64 for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.572+0000] {serde.py:339} DEBUG - registering numpy.uint8 for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.572+0000] {serde.py:339} DEBUG - registering numpy.uint16 for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.572+0000] {serde.py:339} DEBUG - registering numpy.uint32 for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.572+0000] {serde.py:339} DEBUG - registering numpy.uint64 for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.572+0000] {serde.py:339} DEBUG - registering numpy.bool_ for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.572+0000] {serde.py:339} DEBUG - registering numpy.float64 for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.572+0000] {serde.py:339} DEBUG - registering numpy.float16 for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.572+0000] {serde.py:339} DEBUG - registering numpy.complex128 for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.573+0000] {serde.py:339} DEBUG - registering numpy.complex64 for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.573+0000] {serde.py:346} DEBUG - registering numpy.int8 for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.573+0000] {serde.py:346} DEBUG - registering numpy.int16 for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.573+0000] {serde.py:346} DEBUG - registering numpy.int32 for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.573+0000] {serde.py:346} DEBUG - registering numpy.int64 for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.573+0000] {serde.py:346} DEBUG - registering numpy.uint8 for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.573+0000] {serde.py:346} DEBUG - registering numpy.uint16 for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.573+0000] {serde.py:346} DEBUG - registering numpy.uint32 for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.573+0000] {serde.py:346} DEBUG - registering numpy.uint64 for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.574+0000] {serde.py:346} DEBUG - registering numpy.bool_ for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.574+0000] {serde.py:346} DEBUG - registering numpy.float64 for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.574+0000] {serde.py:346} DEBUG - registering numpy.float16 for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.574+0000] {serde.py:346} DEBUG - registering numpy.complex128 for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.574+0000] {serde.py:346} DEBUG - registering numpy.complex64 for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.574+0000] {serde.py:339} DEBUG - registering pandas.core.frame.DataFrame for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.574+0000] {serde.py:346} DEBUG - registering pandas.core.frame.DataFrame for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.575+0000] {serde.py:339} DEBUG - registering pendulum.tz.timezone.FixedTimezone for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.575+0000] {serde.py:339} DEBUG - registering pendulum.tz.timezone.Timezone for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.575+0000] {serde.py:339} DEBUG - registering backports.zoneinfo.ZoneInfo for serialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.575+0000] {serde.py:346} DEBUG - registering pendulum.tz.timezone.FixedTimezone for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.575+0000] {serde.py:346} DEBUG - registering pendulum.tz.timezone.Timezone for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.575+0000] {serde.py:346} DEBUG - registering backports.zoneinfo.ZoneInfo for deserialization
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:46.575+0000] {serde.py:357} DEBUG - loading serializers took 0.010 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.053+0000] {cli_action_loggers.py:67} DEBUG - Calling callbacks: [<function default_action_log at 0x7f95c4147ca0>]
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.222+0000] {providers_manager.py:375} DEBUG - Initializing Providers Manager[config]
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.222+0000] {providers_manager.py:375} DEBUG - Initializing Providers Manager[list]
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.245+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.mysql.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-mysql
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.246+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.openlineage.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-openlineage
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.248+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.hashicorp.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-hashicorp
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.250+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.google.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-google
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.256+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.cncf.kubernetes.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-cncf-kubernetes
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.260+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.sendgrid.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-sendgrid
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.261+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.microsoft.azure.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-microsoft-azure
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.264+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.ftp.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-ftp
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.265+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.ssh.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-ssh
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.267+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.postgres.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-postgres
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.268+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.docker.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-docker
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.269+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.elasticsearch.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-elasticsearch
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.272+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.slack.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-slack
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.273+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.grpc.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-grpc
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.274+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.odbc.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-odbc
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.275+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.sftp.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-sftp
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.276+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.common.sql.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-common-sql
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.278+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.common.io.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-common-io
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.279+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.imap.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-imap
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.280+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.redis.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-redis
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.281+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.celery.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-celery
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.286+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.snowflake.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-snowflake
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.288+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.sqlite.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-sqlite
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.289+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.http.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-http
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.291+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.amazon.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-amazon
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.296+0000] {providers_manager.py:601} DEBUG - Loading EntryPoint(name='provider_info', value='airflow.providers.daskexecutor.get_provider_info:get_provider_info', group='apache_airflow_provider') from package apache-airflow-providers-daskexecutor
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.297+0000] {providers_manager.py:378} DEBUG - Initialization of Providers Manager[list] took 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.297+0000] {configuration.py:1816} DEBUG - Loading providers configuration
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.317+0000] {providers_manager.py:378} DEBUG - Initialization of Providers Manager[config] took 0.10 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  |   ____________       _____________
+airflow-docker-compose-fec-airflow-scheduler-1  |  ____    |__( )_________  __/__  /________      __
+airflow-docker-compose-fec-airflow-scheduler-1  | ____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+airflow-docker-compose-fec-airflow-scheduler-1  | ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+airflow-docker-compose-fec-airflow-scheduler-1  |  _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.390+0000] {plugins_manager.py:328} DEBUG - Loading plugins
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.390+0000] {plugins_manager.py:254} DEBUG - Loading plugins from directory: /opt/airflow/plugins
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.390+0000] {plugins_manager.py:234} DEBUG - Loading plugins from entrypoints
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.390+0000] {plugins_manager.py:237} DEBUG - Importing entry_point plugin openlineage
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.425+0000] {plugins_manager.py:346} DEBUG - Loading 1 plugin(s) took 0.04 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.426+0000] {task_context_logger.py:63} INFO - Task context logging is enabled
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.426+0000] {executor_loader.py:108} DEBUG - Loading executor airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor from custom path
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.426+0000] {executor_loader.py:115} INFO - Loaded executor: airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.447+0000] {scheduler_job_runner.py:808} INFO - Starting the scheduler
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.447+0000] {scheduler_job_runner.py:815} INFO - Processing each file at most -1 times
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.448+0000] {scheduler_job_runner.py:836} DEBUG - Using PipeCallbackSink as callback sink.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.450+0000] {selector_events.py:59} DEBUG - Using selector: EpollSelector
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.451+0000] {selector_events.py:59} DEBUG - Using selector: EpollSelector
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.736+0000] {manager.py:169} INFO - Launched DagFileProcessorManager with pid: 54
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.738+0000] {scheduler_job_runner.py:1619} INFO - Adopting or resetting orphaned tasks for active dag runs
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.740+0000] {settings.py:60} INFO - Configured default timezone UTC
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.745+0000] {scheduler_job_runner.py:1624} DEBUG - Running SchedulerJob.adopt_or_reset_orphaned_tasks with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.746+0000] {scheduler_job_runner.py:1629} DEBUG - Calling SchedulerJob.adopt_or_reset_orphaned_tasks method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.757+0000] {settings.py:495} DEBUG - No airflow_local_settings to import.
+airflow-docker-compose-fec-airflow-scheduler-1  | Traceback (most recent call last):
+airflow-docker-compose-fec-airflow-scheduler-1  |   File "/home/airflow/.local/lib/python3.8/site-packages/airflow/settings.py", line 492, in import_local_settings
+airflow-docker-compose-fec-airflow-scheduler-1  |     import airflow_local_settings
+airflow-docker-compose-fec-airflow-scheduler-1  | ModuleNotFoundError: No module named 'airflow_local_settings'
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.757+0000] {logging_config.py:54} DEBUG - Unable to load custom logging, using default config instead
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.762+0000] {settings.py:241} DEBUG - Setting up DB connection pool (PID 54)
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.763+0000] {settings.py:342} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=54
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.764+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.777+0000] {serialized_dag.py:260} DEBUG - Deleting Serialized DAGs (for which DAG files are deleted) from serialized_dag table 
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.777+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.781+0000] {dag.py:3713} DEBUG - Deactivating DAGs (for which DAG files are deleted) from dag table 
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.783+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.786+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.791+0000] {dagcode.py:144} DEBUG - Deleting code from dag_code table 
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.801+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.802+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.802+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.802+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.802+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.803+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.805+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.816+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 4.947384
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:47.817+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.05 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.798+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.807+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.818+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.840+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.852+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.855+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.862+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.866+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.867+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.867+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.867+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.867+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.868+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.878+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 3.885508
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:48.879+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.06 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.809+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.818+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.881+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.901+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.916+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.921+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.930+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.934+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.935+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.935+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.935+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.936+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.936+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.946+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 2.817514
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:49.946+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:50.820+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:50.829+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:50.948+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:50.967+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:50.986+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:50.992+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:51.001+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:51.006+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:51.006+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:51.007+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:51.007+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:51.008+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:51.009+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:51.020+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 1.743983
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:51.020+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:51.831+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:51.840+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.022+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.042+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.059+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.064+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.073+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.076+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.077+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.077+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.077+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.077+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.078+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.088+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 0.675203
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.089+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.766+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.785+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.804+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.810+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.821+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.825+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.826+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.826+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.826+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.842+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.848+0000] {job.py:209} DEBUG - [heartbeat]
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.848+0000] {event_scheduler.py:39} DEBUG - Calling <bound method SchedulerJobRunner._emit_pool_metrics of <airflow.jobs.scheduler_job_runner.SchedulerJobRunner object at 0x7f95a0775370>>
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.850+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.853+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 4.910747
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:52.853+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.09 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.847+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.854+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.857+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.873+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.888+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.896+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.907+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.911+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.912+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.912+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.912+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.913+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.914+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.914+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.915+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.925+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 3.838453
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:53.926+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.858+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.868+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.928+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.947+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.962+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.968+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.979+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.984+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.984+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.984+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.985+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.985+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.985+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.996+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 2.767983
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:54.996+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:55.869+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:55.878+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:55.998+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.017+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.033+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.040+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.063+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.068+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.069+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.070+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.071+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.072+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.073+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.084+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 1.679947
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.084+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.09 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.880+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:56.890+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.086+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.096+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.104+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.108+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.120+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.122+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.123+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.123+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.124+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.124+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.125+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.135+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 0.628408
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.135+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.05 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.765+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.784+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.799+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.807+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.828+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.833+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.834+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.834+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.835+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.855+0000] {job.py:209} DEBUG - [heartbeat]
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.855+0000] {event_scheduler.py:39} DEBUG - Calling <bound method SchedulerJobRunner._find_zombies of <airflow.jobs.scheduler_job_runner.SchedulerJobRunner object at 0x7f95a0775370>>
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.856+0000] {scheduler_job_runner.py:1726} DEBUG - Finding 'running' jobs without a recent heartbeat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.873+0000] {event_scheduler.py:39} DEBUG - Calling <bound method SchedulerJobRunner._emit_pool_metrics of <airflow.jobs.scheduler_job_runner.SchedulerJobRunner object at 0x7f95a0775370>>
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.879+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 4.884281
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.880+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.12 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.892+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:57.899+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.882+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.900+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.901+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.910+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.915+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.923+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.939+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.944+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.944+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.944+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.945+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.945+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.945+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.946+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.946+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.957+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 3.807016
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:58.957+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.08 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:59.912+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:59.921+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:59.958+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:59.977+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:11:59.993+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:00.001+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:00.014+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:00.018+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:00.018+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:00.018+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:00.019+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:00.019+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:00.019+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:00.030+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 2.733670
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:00.030+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:00.922+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:00.931+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.032+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.050+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.067+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.076+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.094+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.096+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.096+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.096+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.097+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.097+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.097+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.108+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 1.655459
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.108+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.08 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.933+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:01.942+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.110+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.114+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.117+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.118+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.122+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.123+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.123+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.123+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.124+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.124+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.124+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.134+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 0.629328
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.134+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.02 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.765+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.783+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.787+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.789+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.795+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.799+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.799+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.799+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.799+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.810+0000] {event_scheduler.py:39} DEBUG - Calling <bound method SchedulerJobRunner.check_trigger_timeouts of <airflow.jobs.scheduler_job_runner.SchedulerJobRunner object at 0x7f95a0775370>>
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.821+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 0.058004
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.822+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.06 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.882+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.900+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.916+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.923+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.935+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.939+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.940+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.940+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.940+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.944+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.947+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.947+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.950+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.963+0000] {job.py:209} DEBUG - [heartbeat]
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.963+0000] {event_scheduler.py:39} DEBUG - Calling <bound method SchedulerJobRunner._emit_pool_metrics of <airflow.jobs.scheduler_job_runner.SchedulerJobRunner object at 0x7f95a0775370>>
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.965+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 4.907893
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:02.965+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.08 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:03.949+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:03.958+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:03.967+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:03.988+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:03.999+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:04.003+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:04.010+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:04.014+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:04.015+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:04.015+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:04.016+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:04.016+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:04.016+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:04.027+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 3.845787
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:04.027+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.06 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:04.960+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:04.969+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.029+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.047+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.063+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.067+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.081+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.083+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.084+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.084+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.084+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.085+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.085+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.096+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 2.776827
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.096+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.970+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:05.979+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.098+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.117+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.134+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.141+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.152+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.157+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.157+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.157+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.157+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.158+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.158+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.169+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 1.703942
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.169+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.981+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:06.990+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.170+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.189+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.206+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.212+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.223+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.224+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.224+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.224+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.225+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.225+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.225+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.236+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 0.636985
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.236+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.874+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.893+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.905+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.908+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.914+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.919+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.919+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.920+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.921+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.932+0000] {event_scheduler.py:39} DEBUG - Calling <bound method SchedulerJobRunner._find_zombies of <airflow.jobs.scheduler_job_runner.SchedulerJobRunner object at 0x7f95a0775370>>
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.933+0000] {scheduler_job_runner.py:1726} DEBUG - Finding 'running' jobs without a recent heartbeat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.944+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 0.021073
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.944+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.967+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.985+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:07.992+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.001+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.002+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.006+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.017+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.018+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.018+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.019+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.019+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.019+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.020+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.033+0000] {job.py:209} DEBUG - [heartbeat]
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.033+0000] {event_scheduler.py:39} DEBUG - Calling <bound method SchedulerJobRunner._emit_pool_metrics of <airflow.jobs.scheduler_job_runner.SchedulerJobRunner object at 0x7f95a0775370>>
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.035+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 4.999992
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:08.035+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.004+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.013+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.037+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.057+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.074+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.082+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.095+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.096+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.096+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.097+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.097+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.097+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.098+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.108+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 3.926830
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:09.108+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.014+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.023+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.110+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.129+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.145+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.151+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.162+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.166+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.166+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.167+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.167+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.167+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.167+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.178+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 2.857277
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:10.178+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.025+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.035+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.179+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.184+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.187+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.188+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.193+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.196+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.197+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.197+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.197+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.197+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.197+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.208+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 1.827365
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:11.208+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.03 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.036+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.046+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.210+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.229+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.244+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.251+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.263+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.267+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.267+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.268+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.268+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.268+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.269+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.279+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 0.755963
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:12.279+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.037+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.048+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.057+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.057+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.063+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.065+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.071+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.073+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.073+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.073+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.073+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.073+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.073+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.087+0000] {job.py:209} DEBUG - [heartbeat]
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.087+0000] {event_scheduler.py:39} DEBUG - Calling <bound method SchedulerJobRunner._emit_pool_metrics of <airflow.jobs.scheduler_job_runner.SchedulerJobRunner object at 0x7f95a0775370>>
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.089+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 4.732605
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:13.089+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.05 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.059+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.068+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.090+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.096+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.101+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.102+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.106+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.110+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.110+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.110+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.110+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.110+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.111+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.121+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 3.699916
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:14.122+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.03 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.070+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.079+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.124+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.142+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.155+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.158+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.166+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.170+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.170+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.170+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.170+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.171+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.171+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.182+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 2.639662
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:15.182+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.06 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.081+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.088+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.185+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._create_dagruns_for_dags with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.204+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.221+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._get_next_dagruns_to_examine with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.227+0000] {retries.py:93} DEBUG - Running SchedulerJobRunner._schedule_all_dag_runs with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.239+0000] {scheduler_job_runner.py:419} DEBUG - No tasks to consider for execution.
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.243+0000] {base_executor.py:217} DEBUG - 0 running task instances
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.243+0000] {base_executor.py:218} DEBUG - 0 in queue
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.243+0000] {base_executor.py:219} DEBUG - 0 open slots
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.243+0000] {base_executor.py:238} DEBUG - Calling the <class 'airflow.providers.daskexecutor.executors.dask_executor.DaskExecutor'> sync method
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.244+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.244+0000] {manager.py:258} DEBUG - Received message of type DagParsingStat
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.255+0000] {scheduler_job_runner.py:1002} DEBUG - Next timed event is in 1.566609
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:16.255+0000] {scheduler_job_runner.py:1004} DEBUG - Ran scheduling loop in 0.07 seconds
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:17.086+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
+airflow-docker-compose-fec-airflow-scheduler-1  | [2024-01-24T15:12:17.097+0000] {retries.py:93} DEBUG - Running DagWarning._purge_inactive_dag_warnings_with_retry with retries. Try 1 of 3
